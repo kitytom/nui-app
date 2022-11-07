@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/goods/goods",
+    "pages/qucan/qucan"
+  ],
+  "subPackages": [
+    {
+      "root": "pagea",
+      "pages": [
+        "index/index",
+        "cart/cart",
+        "dindna/dindna"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "购物",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/nav/home-off.png",
+        "selectedIconPath": "static/nav/home-on.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "菜系",
+        "iconPath": "static/nav/coupon-off.png",
+        "selectedIconPath": "static/nav/coupon-on.png"
+      },
+      {
+        "pagePath": "pages/qucan/qucan",
+        "text": "购物车",
+        "iconPath": "static/nav/fl-off.png",
+        "selectedIconPath": "static/nav/fl-on.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/nav/my-off.png",
+        "selectedIconPath": "static/nav/my-on.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

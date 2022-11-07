@@ -1,0 +1,63 @@
+
+.homebox{
+    background-color: #edf4ff;
+}
+.home-swiper{
+    height: 330rpx;
+    width: 100%;
+}
+.home-swiper image{
+  width: 100%;
+  color: #ffdeae;
+}
+.content{
+  height: 300rpx;
+  margin: 20rpx;
+  display: flex;
+ background-color: #fff2f4;
+}
+.content-left, .content-right{
+   width: 400rpx;
+   text-align: center;
+}
+.content-left image, .content-right image{
+   height: 280rpx;
+   width: 200rpx;
+   margin-top: 10rpx;
+}
+.bottombox{
+  height: 200rpx;
+  display: flex;
+  line-height: 200rpx;
+  margin: 20rpx;
+  text-align: center;
+  background-color:  #fff2f4;
+}
+.bottombox-left{
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  color: #ff5500;
+}
+.bottombox-left,.bottombox-right{
+  width: 400rpx;
+}
+.bottombox-right image{
+  margin: 50rpx 0rpx 0rpx 0rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+.goodsitem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.goodsitem image{
+  width: 330rpx;
+  height: 240rpx;
+  margin: 10rpx;
+}
+.goodstitle{
+  height: 45rpx;
+  margin-left: 40rpx;
+}
+

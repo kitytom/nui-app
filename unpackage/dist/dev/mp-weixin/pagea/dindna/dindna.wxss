@@ -1,0 +1,28 @@
+
+.active.data-v-580e4674{
+    color: #db6eff;
+}
+.dindanbox.data-v-580e4674{
+  height: 100rpx;
+  display: flex;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.dindanbox-left.data-v-580e4674,.dindanbox-right.data-v-580e4674{
+  width: 400rpx;
+}
+.itemnumber.data-v-580e4674{
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.itemnumber image.data-v-580e4674{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 20rpx;
+}
+.itemnumber text.data-v-580e4674{
+  margin: 20rpx;
+  display: block;
+}
+

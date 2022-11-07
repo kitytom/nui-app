@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+        			"path": "pages/index/index",
+        			"style": {
+        				"navigationBarTitleText": "大鱼铁板烧"
+        		    // "navigationStyle": "custom"  去掉导航栏可以自定义
+        			}
+        		}
+        		    ,	
+    {
+        "path" : "pages/my/my",
+        "style" :                                                                                    
+        {
+            "navigationBarTitleText": "我的",
+            "enablePullDownRefresh": false,
+             "navigationBarBackgroundColor": "#ffc1dd"
+        }
+    
+    },
+	
+    {
+		      "path" : "pages/home/home",
+		      "style" :                                                                                    
+		      {
+		          "navigationBarTitleText": "首页",
+		          "enablePullDownRefresh": false,
+		          "navigationBarBackgroundColor": "#ffc1dd"
+		      }
+		      
+		  },
+    {
+		  "path": "pages/goods/goods",
+		  "style": {
+		    "navigationBarTitleText": "商品",
+		    "navigationBarTextStyle": "black",
+		    "navigationBarBackgroundColor": "#ffc1dd"
+		  }
+		},
+        {
+            "path" : "pages/qucan/qucan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false,
+                  "navigationBarBackgroundColor": "#ffc1dd"
+            }
+            
+        }
+    ],
+    "subPackages": [
+      {
+          "root": "pagea",
+          "pages": [
+                {
+                    "path" : "index/index",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                }
+                ,{
+                    "path" : "cart/cart",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "dindna/dindna",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+      }
+    ],
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath": "static/nav/home-off.png",
+          "selectedIconPath": "static/nav/home-on.png"
+        },
+        {
+          "pagePath": "pages/goods/goods",
+          "text": "菜系",
+          "iconPath": "static/nav/coupon-off.png",
+          "selectedIconPath": "static/nav/coupon-on.png"
+        },
+        {
+          "pagePath": "pages/qucan/qucan",
+           "text": "购物车",
+           "iconPath": "static/nav/fl-off.png",
+           "selectedIconPath": "static/nav/fl-on.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "static/nav/my-off.png",
+          "selectedIconPath": "static/nav/my-on.png"
+        }
+      ]
+    },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "购物",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
